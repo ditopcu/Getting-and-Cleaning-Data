@@ -227,8 +227,7 @@ getfeatures <- function(featurefile = "features.txt") {
 
   ds[,2]
 }
-
-
+#############################################################################
 
 # Call main functions to process dataset
 
@@ -238,8 +237,8 @@ dss<- combine.datasets() %>%
   create.descriptive.names() %>% 
   tidy.data()
 
-#write dataset to tidy.csv file
-write.table( x = dss, "tidy.csv")
+#write dataset to tidy.txtfile
+write.table( x = dss, "tidy.txt", row.names = FALSE)
 print("Ok...")
 
 
