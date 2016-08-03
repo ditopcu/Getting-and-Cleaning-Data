@@ -3,7 +3,7 @@ DATA DICTIONARY - Getting and Cleaning Data Course Project Tidy Data Set
 
 	Files and Raw data set:
 
-	features.txt					Data set raw "column names" which represents 512 features.Each row includes one feature.
+	features.txt				Data set raw "column names" which represents 512 features.Each row includes one feature.
 								Common for both test and training set.
 								
 	activity_labels.txt			Descriptive names for subject activities
