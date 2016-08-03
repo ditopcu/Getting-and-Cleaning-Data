@@ -1,21 +1,21 @@
 
 DATA DICTIONARY - Getting and Cleaning Data Course Project Tidy Data Set
 
-Files and Raw data set:
+	Files and Raw data set:
 
-features.txt					Data set raw "column names" which represents 512 features.Each row includes one feature.
+	features.txt					Data set raw "column names" which represents 512 features.Each row includes one feature.
 								Common for both test and training set.
 								
-activity_labels.txt: 			Descriptive names for subject activities
+	activity_labels.txt			Descriptive names for subject activities
 
-train/subject_test.txt			Data set "subject" column. Each row includes one subject. Test Set data
-test/subject_test.txt			Data set "subject" column. Each row includes one subject. Training Set data
+	train/subject_test.txt		Data set "subject" column. Each row includes one subject. Test Set data
+	test/subject_test.txt		Data set "subject" column. Each row includes one subject. Training Set data
 
-test/X_test.txt					Data set "features" columns. Each row includes 512 feature. Test Set data	
-train/X_train.txt				Data set "features" columns. Each row includes 512 feature. Training Set data
+	test/X_test.txt				Data set "features" columns. Each row includes 512 feature. Test Set data	
+	train/X_train.txt			Data set "features" columns. Each row includes 512 feature. Training Set data
 
-test/y_test.txt					Data set "activity" columns. Each row includes one  activity. Test Set data	
-train/y_train.txt				Data set "activity" columns. Each row includes one  activity. Training Set data	
+	test/y_test.txt				Data set "activity" columns. Each row includes one  activity. Test Set data	
+	train/y_train.txt			Data set "activity" columns. Each row includes one  activity. Training Set data	
 
 
 
@@ -26,7 +26,7 @@ Variables:
 1		subject
 		An identifier of the subject who carried out the experiment. Total 30 subject is included. (subject numbers: 1-30)
 	 
-2		activities: Subject Activities
+2		activities Subject Activities
 
 			1 WALKING
 			2 WALKING_UPSTAIRS
